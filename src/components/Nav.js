@@ -14,11 +14,11 @@ const Nav = () => {
           <h2>Government of India</h2>
         </div>
         <div className="nav-btns" >
-          <Link to="/singup">
-            <div className="btn" >Sign Up</div>
+          <Link to="/adminLogin">
+            <div className="btn" >Admin</div>
           </Link>
           <Link to="/">
-            <div className="btn">Sign In</div>
+            <div className="btn">Artist</div>
           </Link>
         </div>
       </nav>

@@ -9,17 +9,21 @@ import {
   Link
 } from "react-router-dom";
 import SingUp from "./components/SIngUp";
+import AdminLogin from "./components/AdminLogin";
 
 const App = () => {
   return (
     <Router>
       <div className="App">
         <Nav />
-        <Home />
+
         <Routes>
+          <Route path="/adminLogin" element={<AdminLogin />} />
           <Route path="/" element={<LogIn />} />
-          <Route path="/singup" element={<SingUp />} />
+          <Route path="/singUp" element={<SingUp />} />
+
         </Routes>
+        <Home />
       </div>
     </Router>
   );

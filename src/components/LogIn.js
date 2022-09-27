@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './LogIn.css'
-
+import { Link } from "react-router-dom";
 
 export default function LogIn() {
 
@@ -20,7 +20,7 @@ export default function LogIn() {
     <div>
       <div className="container">
         <center>
-          <h1>Log-in</h1>
+          <h1>Artist Log-in</h1>
         </center>
         <form action="" className="login">
           <div className="box">
@@ -32,7 +32,10 @@ export default function LogIn() {
             <input type="password" placeholder="Password" className="field" required name="Password" value={user.Password} onChange={getUserData} />
           </div>
           <center>
-            <div className="btn btn-b">Log In</div>
+            <div className="btn btn-b log">Log In</div>
+            <Link to="/singUp">
+              <div className="btn btn-b">Sing Up</div>
+            </Link>
           </center>
         </form>
       </div>
