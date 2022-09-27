@@ -1,0 +1,71 @@
+.container {
+    width: 100vw;
+    min-height: 90vh;
+    /* background: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+form.login {
+    padding: 40px 50px;
+    border-radius: 15px;
+    background-color: #6791fd64;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 35px 0;
+}
+
+#role-list,
+.field {
+    width: 450px;
+    background-color: #6791fd64;
+    padding: 15px 25px !important;
+    outline: none;
+    border: none !important;
+    border-radius: 7px;
+    color: rgb(69, 69, 69);
+}
+
+.box::placeholder {
+    color: rgb(33, 33, 33) !important;
+}
+
+
+
+.left {
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+    margin-left: 8vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-b {
+    width: fit-content;
+    background-color: #6791fd;
+    border: none;
+    padding: 12px 35px;
+}
+
+.btn-b:hover {
+    color: white;
+    background-color: #4276f9;
+}
+
+.left h1 {
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.left h2 {
+    margin-top: 10px;
+    font-weight: lighter;
+}

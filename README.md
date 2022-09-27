@@ -1,1 +1,2 @@
-# Azadi-Hackthon
+# GECR AAZADI HACKTHON-2022 👨‍💻
+
